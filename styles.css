@@ -1,11 +1,11 @@
 body {
-  font-family: "Arial";
+  font-family: Tahoma, Geneva, sans-serif;
   padding-right:15%;
   padding-left:15%;
 }
 
 div {
-  background-color: rgb(230, 230, 230);
+  background-color: rgba(194, 202, 208, 0.36);
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
@@ -38,7 +38,7 @@ div {
 }
 
 .dropbtn {
-    background-color: rgb(0,0,0);
+    background-color: rgb(17,17,234);
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -54,7 +54,7 @@ div {
   top: 0;
   width: 100%;
   list-style-type: none;
-  background-color: rgb(0,0,0);
+  background-color: rgb(17,17,234);
   display: none;
 }
 
@@ -79,7 +79,7 @@ div {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: rgb(128,128,128)}
+.dropdown-content a:hover {background-color: rgba(194, 202, 208, 0.7)}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -88,7 +88,7 @@ div {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: rgb(128,128,128);
+    background-color: rgba(194, 202, 208, 0.7);
 }
 
 @media (max-width: 960px) {
@@ -102,7 +102,7 @@ img {
 
 .footer {
   text-align: center;
-    background-color: grey;
+    background-color: rgb(17,17,234);
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -117,7 +117,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(0,0,0);
+    background-color: rgb(17,17,234);
 }
 
 li {
@@ -126,7 +126,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: white;rgb(17,17,234)
     text-align: center;
     padding: 15px;
     margin: 5px;
@@ -134,7 +134,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: rgba(194, 202, 208, 0.7);
 }
 
 li {
@@ -143,8 +143,4 @@ li {
 
 li:last-child {
     border-right: none;
-}
-
-h1 {
-  font-size: 50px;
 }
