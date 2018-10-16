@@ -2,7 +2,7 @@ body {
   font-family: Tahoma, Geneva, sans-serif;
   padding-right:15%;
   padding-left:15%;
-  min-width: 350px;
+  <!-- min-width: 350px; -->
 }
 
 div {
@@ -26,10 +26,13 @@ div {
 .column {
   background-color: rgba(194, 202, 208,0);
  float: left;
- width: 15%;
- max-width: 200px;
+ width: 20%;
  padding-right: 7%;
  padding-left: 7%;
+}
+
+.row {
+  background-color:  transparent;
 }
 
 /* Clear floats after image containers */
@@ -42,9 +45,9 @@ div {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 600px) {
  .column {
-   width: 100%;
+   width: 75%;
  }
 }
 
@@ -106,6 +109,11 @@ div {
 @media (max-width: 960px) {
   ul     { display: none; }
   div.dropdown {display: inline-block;}
+	body {
+  padding-right:0%;
+  padding-left:0%;
+  <!-- min-width: 350px; -->
+}
 }
 
 img {
